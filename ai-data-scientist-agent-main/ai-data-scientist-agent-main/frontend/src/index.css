@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #ecf4f6;
+  background: #07131a;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: radial-gradient(circle at 20% 20%, rgba(119, 213, 212, 0.16), transparent 20%),
+    radial-gradient(circle at 80% 0%, rgba(242, 193, 101, 0.12), transparent 18%),
+    linear-gradient(135deg, #07131a 0%, #0d1b24 45%, #102633 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(119, 213, 212, 0.3);
+  border-radius: 999px;
+}
